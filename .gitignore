@@ -1,0 +1,9 @@
+# Dependency folder
+node_modules/
+
+# Logs
+*.log
+
+# Sensitive config items
+#/config/env/development.js
+#/config/env/production.js
