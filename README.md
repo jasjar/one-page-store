@@ -41,7 +41,7 @@ Once you establish a connection to MongoDB, you will need to create a collection
 Create two configuration files in the /config/env/ folder called development.js and production.js that look like this:
 ```
 module.exports = {
-  authorizeDebug: true,
+  authorizeDebug: true //logs responses to console,
   authorizeApiLoginKey: process.env.AUTHORIZE_LOGIN_KEY,
   authorizeTransactionKey: process.env.AUTHORIZE_TRANSACTION_KEY,
   // the next property is needed for production only

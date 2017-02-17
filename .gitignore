@@ -5,5 +5,4 @@ node_modules/
 *.log
 
 # Sensitive config items
-#/config/env/development.js
-#/config/env/production.js
+/config/env/local.js
